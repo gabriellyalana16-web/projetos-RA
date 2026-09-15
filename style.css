@@ -7,7 +7,7 @@ body {
 
 }
 a{
-    color:brown;
+    color:rgb(185, 120, 79);
     text-decoration:beige;
 }
 a:hover {
@@ -26,4 +26,24 @@ a:hover {
     justify-content: space space-between;
     align-items: center;
     
+}
+
+.container {
+    padding: 60px ;
+}
+
+.apresentacao {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.botao {
+    background-color: rgb(101, 75, 75);
+    padding: 10px 20px;
+    border-radius: 10em;
+}
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
