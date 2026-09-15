@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(105, 64, 9);
+    /*background-color:black;*/
+    background-image: url(imagegif.png);
+    margin: 0;
+
+}
+a{
+    color:brown;
+    text-decoration:beige;
+}
+a:hover {
+    color:bisque;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topo {
+    background-color: rgb(198, 172, 140);
+    padding: 16px 0;
+}
+
+.topo-conteudo {
+    dispplay: flex;
+    justify-content: space space-between;
+    align-items: center;
+    
+}
